@@ -120,3 +120,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+/* Glassmorphism sci-fi */
+.glass {
+  background: linear-gradient(135deg, rgb(15 23 42 / 0.72), rgb(2 6 23 / 0.6));
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid rgb(129 140 248 / 0.2);
+  box-shadow:
+    0 0 40px -12px rgb(99 102 241 / 0.45),
+    inset 0 1px 0 rgb(255 255 255 / 0.06);
+}
